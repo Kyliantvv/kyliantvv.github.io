@@ -1,3 +1,7 @@
+:root{
+    --main-bg-width: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #ddcfcf;
     padding: 15px 0;
     position: fixed;
     width: 100%;
@@ -17,7 +21,8 @@ header {
 }
 
 .logo img {
-    width: 120px; 
+    width: 50px;
+    height: 30px;
 }
 
 nav ul {
@@ -33,13 +38,13 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     font-weight: bold;
     transition: color 0.3s ease-in-out;
 }
 
 nav a:hover {
-    color: #ffd700;
+    color: #c811d9;
 }
 
 nav ul {
@@ -58,7 +63,31 @@ nav ul {
 }
 
 .backimg {
-    position: fixed;
+    position: fixe;
     min-width: 100%;
     min-height: 100%;
+}
+
+.destpop {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.photo {
+    width: 500px;
+    position: relative;
+    left: 400px;
+}
+
+.descri {
+    width: 485px;
+    position: relative;
+    left: 450px;
+}
+
+.aurore {
+    position: relative;
+    left: 970px;
+    top: -290px;
 }
