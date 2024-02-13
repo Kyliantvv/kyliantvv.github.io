@@ -1,50 +1,110 @@
 <!DOCTYPE html>
+
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="shortcut icon" href="assets/logo.png"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Voyage Explorer</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/logo.png"/> <!-- FavIcon -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" /> <!--BoxIcon CSS-->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="header">
+    <div class="logo">
+      <a href="index.html">
+          <img src="assets/logo.png" alt="Voyage Explorer">
+      </a>
+    </div>
+      <nav>
+          <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="#destinations">Destinations</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </nav>
+    </div>
 
-    <header>
-        <div class="logo">
-            <a href="index.html">
-                <img src="assets/logo.png" alt="Voyage Explorer">
-            </a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="#destinations">Destinations</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+            <img class="backimg" src="assets/back2.jpg" alt="Image background">
 
-    <img class="backimg" src="assets/back2.jpg" alt="Image background">
+      <div class="antibug">
+        <section class="home-packages">
+          <h1 class="heading-title">Nos Packs</h1>
+          <div class="box-container">
+              <div class="box">
+                  <div class="image">
+                      <img src="assets/img-3.jpg" alt="Image Culturel">
+                  </div>
+                  <div class="content">
+                      <h3>Culturel</h3>
+                      <p>mprégnez-vous de l'histoire, de l'art, de l'architecture et de la culture d'une région en explorant ses sites historiques, ses musées, ses festivals locaux et en rencontrant ses habitants.</p>
+                      <a href="#" class="btn">reservez maintenant</a>
+                  </div>
+              </div>
+              <div class="box">
+                  <div class="image">
+                      <img src="assets/img-2.jpeg" alt="Image culinaire">
+                  </div>
+                  <div class="content">
+                      <h3>Culinaire</h3>
+                      <p>Explorez les cuisines et les traditions culinaires uniques à travers le monde. Vous pouvez découvrir des destinations réputées pour leur gastronomie, participer à des cours de cuisine locaux.</p>
+                      <a href="#" class="btn">reservez maintenant</a>
+                  </div>
+              </div>
+              <div class="box">
+                  <div class="image">
+                      <img src="assets/img-1.jpg" alt="Image Aventure">
+                  </div>
+                  <div class="content">
+                      <h3>Aventure</h3>
+                      <p>Si vous aimez l'aventure et les activités en plein air, vous pourriez envisager un voyage axé sur des activités telles que la randonnée, le kayak, le vélo de montagne, l'escalade ou le safari.</p>
+                      <a href="#" class="btn">reservez maintenant</a>
+                  </div>
+              </div>
+          </div>
+          <div class="load-more"><a href="#" class="btn">charger plus</a></div>
+        </section>
+      </div>
 
-    <p class="destpop">Nos Destinations Populaire</p>
+    <div class="wrapper">
+      <div class="cookietitre">
+        <i class="bx bx-cookie"></i>
+        <h1>Cookies</h1>
+      </div>
 
-    <div id="destapopu">
-            <img class="photo" src="assets/islande.jpg" alt="Image 1">
-            <img class="descri" src="assets/blu.png" alt="Image ">
-            <p class="aurore"><b>Aurore Boréale Islande</b><br><br>
-                Lors d’une belle nuit dégagée, au cœur de l’hiver islandais,<br> le voyageur de passage
-                 en Islande aura peut être le privilège<br> (et la chance !) d’assister à un de plus
-                  beaux phénomènes<br> naturels de la planète : les aurores boréales.<br><br>
-                Profitez d’un voyage dédié aux aurores boréales, accompagné<br> d’un guide expert
-                 de l’Islande pour tenter votre chance et<br> assister à ce spectacle mythique des
-                  hautes latitudes.<br> Une expérience à vivre au moins une fois…</p>
-    </div>        
+      <div class="data">
+        <p>Ce site Web utilise des cookies pour vous aider à avoir une expérience de navigation supérieure et plus pertinente sur le site Web. <a href="ensavoirplus.html"> En savoir plus...</a></p>
+      </div>
+
+      <div class="buttons">
+        <button class="button" id="acceptBtn">Accepter</button>
+        <button class="button" id="declineBtn">Refuser</button>
+      </div>
+    </div>
 
 
-    <script src="index.js"></script>
 
 
-</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
 </html>
-
